@@ -1,0 +1,59 @@
+{
+  "invoices": [
+    {
+      "id": 1,
+      "title": "First",
+      "clientId": "1",
+      "items": [
+        {
+          "id": 1,
+          "text": "Mele",
+          "price": 20
+        },
+        {
+          "id": 2,
+          "text": "Pere",
+          "price": 10
+        },
+        {
+          "id": 0.46278514585281805,
+          "text": "Pesche",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "title": "Second",
+      "clientId": "1",
+      "items": [
+        {
+          "id": 0.8399587418978511,
+          "text": "item 1",
+          "price": 8
+        },
+        {
+          "id": 0.8338008829458825,
+          "text": "item 2",
+          "price": 10
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "New invoice",
+      "clientId": "",
+      "items": [],
+      "id": 3
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Michele"
+    },
+    {
+      "id": 2,
+      "name": "Fabio"
+    }
+  ]
+}
