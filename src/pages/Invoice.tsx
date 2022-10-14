@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Client, InvoiceInfo } from '../models/Invoices';
 import axios from 'axios';
 import { useFieldArray, useForm } from 'react-hook-form';
-import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 export function Invoice() {
 
